@@ -1,0 +1,73 @@
+h1 {
+    font-family:sans-serif;
+    border:4px sold black;
+    border-color: black;
+    border-radius: 10px;
+    background:rgb(0, 255, 200);
+    width:600px;
+    text-align: center;
+    margin-left:330px;
+    padding:20px 0px;
+   
+}
+
+body{ background:lightslategray;
+
+}
+
+label {
+        margin-left:400px;
+        color:white;
+        font-family:sans-serif;
+        font-size:20px;
+        margin-bottom: 100px;
+}
+
+input[type=number]{
+                    color:blue;
+                    background-color: rgb(0, 255,200);
+}
+
+.format{
+                    margin-left:400px
+}
+
+.text {
+        color:white;
+
+}
+
+p {
+    color:white;
+    margin-left:400px;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+p.easter1 {
+
+    color:white;
+    margin-left:150px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+p.easter2 {
+
+        color:white;
+        margin-left:270px;
+        font-size: 50px;
+        font-family: sans-serif;
+}
+
+p.easter3 {
+            color:white;
+            margin-left:270px;
+            font-size: 50px;
+            font-family: sans-serif;
+}
+
+span.east {
+            color:rgb(0, 255,200)
+}

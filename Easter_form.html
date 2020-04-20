@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Easter Form</title>
+    <link rel="stylesheet" type="text/css" href="easter.css">
+</head>
+
+<body>
+    <h1>Find a specific Year's Easter date</h1>
+    <form action="cgi-bin/Easter.py" method="GET">
+        
+    <label for="Year">
+        <strong>Enter a Year:</strong>
+    </label>
+
+    <input type="number" id="Year" name="Year" min="1" max="9999"/>
+    <input type="submit" value="submit"/> <br/>
+
+    <p><strong> How do you want to be displayed?: </strong>  </p>
+
+    <input type="radio" name="howformat" id="numerically" value="numerically"
+    checked="checked" class="format"/><span class="text"> Numerically</span><br/>
+    <input type="radio" name="howformat" id="verbosely" value="verbosely" checked="checked" class="format"/>
+    <span class="text">Verbosely</span><br/>
+    <input type="radio" name="howformat" id="both" value="both" checked="checked" class="format"/><span class="text"> Both</span><br/>
+    </form>
+
+</body>
+</html>
